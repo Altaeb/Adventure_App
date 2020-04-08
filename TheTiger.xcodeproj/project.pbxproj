@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		4D82F7BF1A3A1BE5004CF358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82F7BE1A3A1BE5004CF358 /* AppDelegate.swift */; };
-		4D82F7C11A3A1BE5004CF358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82F7C01A3A1BE5004CF358 /* ViewController.swift */; };
 		4D82F7C41A3A1BE5004CF358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D82F7C21A3A1BE5004CF358 /* Main.storyboard */; };
 		4D82F7C61A3A1BE5004CF358 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D82F7C51A3A1BE5004CF358 /* Images.xcassets */; };
 		4D82F7C91A3A1BE5004CF358 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D82F7C71A3A1BE5004CF358 /* LaunchScreen.xib */; };
+		B6FD50F4243E62DF007829B4 /* StoryNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD50F3243E62DF007829B4 /* StoryNodeViewController.swift */; };
+		B6FD50F6243E630F007829B4 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD50F5243E630F007829B4 /* RootTableViewController.swift */; };
+		B6FD5158243E65DF007829B4 /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD5157243E65DF007829B4 /* Adventure.swift */; };
+		B6FD515A243E6601007829B4 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD5159243E6601007829B4 /* Credits.swift */; };
+		B6FD515D243E6623007829B4 /* StoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD515C243E6623007829B4 /* StoryNode.swift */; };
+		B6FD515F243E663D007829B4 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD515E243E663D007829B4 /* Connection.swift */; };
+		B6FD5167243E68F8007829B4 /* Harp.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6FD5166243E68DB007829B4 /* Harp.plist */; };
+		B6FD5168243E68FA007829B4 /* HauntedHouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6FD5163243E68DA007829B4 /* HauntedHouse.plist */; };
+		B6FD5169243E68FD007829B4 /* Stranger.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6FD5165243E68DB007829B4 /* Stranger.plist */; };
+		B6FD516A243E6900007829B4 /* Tiger.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6FD5164243E68DA007829B4 /* Tiger.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D82F7B91A3A1BE5004CF358 /* TheTiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheTiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D82F7BD1A3A1BE5004CF358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D82F7BE1A3A1BE5004CF358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D82F7C01A3A1BE5004CF358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D82F7C31A3A1BE5004CF358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D82F7C51A3A1BE5004CF358 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D82F7C81A3A1BE5004CF358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6FD50F3243E62DF007829B4 /* StoryNodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryNodeViewController.swift; sourceTree = "<group>"; };
+		B6FD50F5243E630F007829B4 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		B6FD5157243E65DF007829B4 /* Adventure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
+		B6FD5159243E6601007829B4 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		B6FD515C243E6623007829B4 /* StoryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryNode.swift; sourceTree = "<group>"; };
+		B6FD515E243E663D007829B4 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		B6FD5163243E68DA007829B4 /* HauntedHouse.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HauntedHouse.plist; sourceTree = "<group>"; };
+		B6FD5164243E68DA007829B4 /* Tiger.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Tiger.plist; path = "../../step5.8-makeYourOwnAdventure-complete/MYOA/Tiger.plist"; sourceTree = "<group>"; };
+		B6FD5165243E68DB007829B4 /* Stranger.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Stranger.plist; sourceTree = "<group>"; };
+		B6FD5166243E68DB007829B4 /* Harp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Harp.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				4D82F7BE1A3A1BE5004CF358 /* AppDelegate.swift */,
-				4D82F7C01A3A1BE5004CF358 /* ViewController.swift */,
+				B6FD50F3243E62DF007829B4 /* StoryNodeViewController.swift */,
+				B6FD50F5243E630F007829B4 /* RootTableViewController.swift */,
+				B6FD513B243E63AC007829B4 /* Model */,
 				4D82F7C21A3A1BE5004CF358 /* Main.storyboard */,
 				4D82F7C71A3A1BE5004CF358 /* LaunchScreen.xib */,
 				4D82F7C51A3A1BE5004CF358 /* Images.xcassets */,
@@ -67,9 +87,25 @@
 		4D82F7BC1A3A1BE5004CF358 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6FD5166243E68DB007829B4 /* Harp.plist */,
+				B6FD5163243E68DA007829B4 /* HauntedHouse.plist */,
+				B6FD5165243E68DB007829B4 /* Stranger.plist */,
+				B6FD5164243E68DA007829B4 /* Tiger.plist */,
 				4D82F7BD1A3A1BE5004CF358 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6FD513B243E63AC007829B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD5157243E65DF007829B4 /* Adventure.swift */,
+				B6FD5159243E6601007829B4 /* Credits.swift */,
+				B6FD515C243E6623007829B4 /* StoryNode.swift */,
+				B6FD515E243E663D007829B4 /* Connection.swift */,
+			);
+			name = Model;
+			path = "../../step5.7-makeYourOwnAdventure-incomplete/Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +167,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FD5169243E68FD007829B4 /* Stranger.plist in Resources */,
 				4D82F7C41A3A1BE5004CF358 /* Main.storyboard in Resources */,
 				4D82F7C91A3A1BE5004CF358 /* LaunchScreen.xib in Resources */,
+				B6FD516A243E6900007829B4 /* Tiger.plist in Resources */,
 				4D82F7C61A3A1BE5004CF358 /* Images.xcassets in Resources */,
+				B6FD5168243E68FA007829B4 /* HauntedHouse.plist in Resources */,
+				B6FD5167243E68F8007829B4 /* Harp.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D82F7C11A3A1BE5004CF358 /* ViewController.swift in Sources */,
+				B6FD50F4243E62DF007829B4 /* StoryNodeViewController.swift in Sources */,
+				B6FD50F6243E630F007829B4 /* RootTableViewController.swift in Sources */,
+				B6FD5158243E65DF007829B4 /* Adventure.swift in Sources */,
+				B6FD515D243E6623007829B4 /* StoryNode.swift in Sources */,
+				B6FD515A243E6601007829B4 /* Credits.swift in Sources */,
 				4D82F7BF1A3A1BE5004CF358 /* AppDelegate.swift in Sources */,
+				B6FD515F243E663D007829B4 /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
